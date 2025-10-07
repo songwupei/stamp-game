@@ -1,0 +1,16 @@
+name: stamp-game
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - matplotlib
+  - ipywidgets
+  - voila
+  - jupyter
+  - jupyterlab
+  - pip:
+    - flask
+    - streamlit
